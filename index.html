@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Travel App - Privacy Policy</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: black;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        object-fit: cover;
+      }
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+      p {
+        margin-bottom: 16px;
+      }
+      .accordion {
+        margin-top: 20px;
+      }
+      .accordion-item {
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+      }
+      .accordion-header {
+        background-color: #f4f4f4;
+        padding: 10px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      .accordion-content {
+        padding: 10px;
+        display: none;
+      }
+      .accordion-content.active {
+        display: block;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="/easy-travel-logo.png" alt="Easy Travel Logo" class="logo" />
+        <h1>Easy Travel App</h1>
+      </div>
+
+      <h2>Privacy Policy</h2>
+
+      <p>
+        Welcome to the Easy Travel App Privacy Policy Page. Your privacy is
+        important to us. This privacy policy explains how we collect, use, and
+        protect your personal information when you use our app, available on the
+        Google Play Store.
+      </p>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header">Information We Collect</div>
+          <div class="accordion-content">
+            <p>We may collect the following types of data:</p>
+            <ul>
+              <li>
+                <strong>Personal Information:</strong> Name, email address, and
+                other contact details provided by you.
+              </li>
+              <li>
+                <strong>Usage Data:</strong> Information about how you use our
+                app, including interactions and preferences.
+              </li>
+              <li>
+                <strong>Device Data:</strong> Information such as device type,
+                operating system, and app version.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">How We Use Your Information</div>
+          <div class="accordion-content">
+            <p>We use the information we collect to:</p>
+            <ul>
+              <li>Provide and maintain the app.</li>
+              <li>Improve and personalize your experience.</li>
+              <li>
+                Communicate with you regarding updates, offers, and support.
+              </li>
+              <li>Analyze how the app is used to improve functionality.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">Sharing Your Information</div>
+          <div class="accordion-content">
+            <p>
+              We do not share your personal information with third parties
+              except in the following cases:
+            </p>
+            <ul>
+              <li>If required by law or legal process.</li>
+              <li>
+                To protect the rights and safety of our users and third parties.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">Security</div>
+          <div class="accordion-content">
+            <p>
+              We take reasonable measures to protect your personal data from
+              unauthorized access, disclosure, or destruction. However, please
+              understand that no method of transmitting or storing data is
+              completely secure.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">Children's Privacy</div>
+          <div class="accordion-content">
+            <p>
+              Our app is not intended for use by children under the age of 13.
+              We do not knowingly collect personal information from children.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">Changes to This Privacy Policy</div>
+          <div class="accordion-content">
+            <p>
+              We may update this privacy policy from time to time. We will
+              notify you of any changes by posting the new policy on this page.
+              We encourage you to review this policy periodically.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">Contact Us</div>
+          <div class="accordion-content">
+            <p>
+              If you have any questions or concerns about this privacy policy,
+              please contact us at abdullahi.hagi98@gmail.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll(".accordion-header").forEach((header) => {
+        header.addEventListener("click", () => {
+          const content = header.nextElementSibling;
+          content.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
